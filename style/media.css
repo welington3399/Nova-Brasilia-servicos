@@ -1,0 +1,110 @@
+@media screen and (max-width: 1550px) {
+    .logo{
+        font-size: 30px;
+    }
+    .a-nav{
+        font-size: 20px;
+    }
+
+    .nav-list li{
+        margin: 10px;
+    }
+    .imgLogo{
+        width: 100px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 1280px) {
+    .back4{
+        transition: .5s;
+        background: url(../img/background-final\ 5.png) center center;
+        background-size: cover;
+        background-position: bottom;
+        right: 0px;
+        float: none;
+        height: 50%;
+        width: 100%;
+        border-radius: 0px 30px 150px;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+    .inicial{
+        text-align: center;
+        width: 100%;
+        padding-top: 5%;
+        margin-bottom: 0;
+        align-items: end;
+    }
+
+    .inicial p{
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .textL{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .nav-list{
+        display: none;
+        position: absolute;
+        top: 5vh;
+        right: 0;
+        width: 50vw;
+        height: 90vh;
+        background-color: #3c713e;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .nav-list li {
+        margin-left: 0;
+    }
+    .mobile-menu{
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width:750px) {
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+    .container2{
+        width: 100%;
+    }
+    .back4{
+        height: 35%;
+    }
+    .inicial{
+        padding-top: 5%;
+    }
+    .box{
+        flex-direction: column;
+    }
+
+    .box .butt{
+        width: auto;
+    }
+    .logoName{
+        margin-left: 0;
+    }
+    .logoName .logo{
+        font-size: 20px;
+    }
+    .logoName .imgLogo{
+        width: 70px;
+    }
+}

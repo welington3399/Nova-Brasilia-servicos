@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./img/nova logo verde.svg">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
+
+    <title>Nova Brasília Serviços</title>
+</head>
+<body>
+    <!-- NAVEGAÇÃO -->
+    <header>
+        <nav>
+            <div class="logoName">
+                <img class="imgLogo" src="./img/nova logo branco.svg" alt="">
+                <a class="logo">Nova Brasília Serviços</a>
+            </div>
+            <div id="button-hamburguer" class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a class="a-nav" href="#inicial">Ínicio</a></li>
+                <li><a class="a-nav" href="#sobre">Sobre</a></li> 
+                <li><a class="a-nav"href="#servicos">Serviços</a></li>
+                <li><a class="a-nav" href="#contatos">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--FIM NAVEGAÇÃO -->
+    <main>
+        <!-- <img class="imgBackground" src="./img/background-teste.svg" alt=""> -->
+        <!-- INICIO -->
+        <div class="container">
+            <div class="back4"></div>
+            <div class="inicial" id="inicial">
+                <h1 class="title1 space">Precisando de alguém para cuidar de onde mora?</h1>
+                <!-- <h2 class="  title space">Nova Brasília Serviços
+                    Resolve!</h2> -->
+                <p class="textSubtitle space"><strong style="color: #3c713e;">Nova Brasília Serviços Resolve!</strong><br> Cuidamos do seu lar com excelência! <br>Terceirização de serviços com <strong>segurança, eficiência e profissionalismo</strong> para garantir o bem-estar de todos os moradores.
+                    Sem dores de cabeça e com custo assecível
+                </p>
+                <a class="button space" href="https://wa.me/+5561991191539" target="_blank" id="buttonOrc">Solicite um orçamento</a>
+            </div>
+            <p class="textL">Conheça melhor a nossa empresa logo abaixo!</p>
+        </div>
+        <!-- FIM INICIO -->
+        <!-- SOBRE -->
+        <div class="container2 center">
+           <div id="sobre">
+                <h2 class="subTitle space">Um pouco sobre nós</h2>
+                <P class="space textSubtitle">A Nova Brasília Serviços é uma empresa dedicada à prestação de serviços 
+                    terceirizados para condomínios, focada em oferecer soluções eficientes e de qualidade. Com uma equipe 
+                    altamente capacitada e um atendimento personalizado, trabalhamos para atender todas as necessidades dos condomínios, 
+                    garantindo a satisfação dos moradores e a valorização do patrimônio.</P>
+                <button class="buttonDivs" id="open" onclick="click()">clique aqui e saiba mais sobre os nossos princípios</button>
+                <div class="box">
+
+                    <div class="butt infoMission">
+                        <h3 class="">Missão</h3>
+                        <p class="textP teste   remove textBox">
+                            proporcionar um ambiente seguro, limpo e bem mantido
+                             para os moradores, por meio de serviços de alta qualidade e uma gestão eficiente. Buscamos 
+                            sempre a satisfação total dos nossos clientes, oferecendo soluções que atendam às suas necessidades específicas.
+                        </p>
+                    </div>
+
+                    <div class="vision butt">
+                        <h3>visão</h3>
+                        <p class="textP teste remove textBox">Ser a principal empresa de serviços terceirizados para condomínios, reconhecida por confiança,
+                         qualidade e inovação, contribuindo para a valorização e a qualidade de vida nos espaços que 
+                         atendemos.
+                        </p>
+                    </div>
+                    
+                    <div class="value  butt">
+                        <h3>valores</h3>
+                        <p class="textP teste remove textBox">
+                            <strong>Excelência:</strong> Compromisso com serviços de alta qualidade. <br>
+                            <br>
+                            <strong>Transparência:</strong> Comunicação clara e aberta com os clientes.<br>
+                            <br>
+                            <strong>Respeito:</strong> Valorização das pessoas e do ambiente.
+                        </p>
+                    </div>
+                </div>
+                <div class="depoimento">
+                    <h2 class="subTitle space">Depoimentos</h2>
+                    <div class="depoiment">
+                        <img src="./img/Pexels Photo by Aleksandar Pasaric.svg" alt="">
+                        <div style="margin: auto;">
+                            <h4>Carlos Mendes – Condomínio Residencial Bela Vista</h4>
+                            <p class="textBox" >Estou extremamente satisfeito. A equipe é sempre pontual,
+                                atenciosa e presta um trabalho de alta qualidade. Desde que contratamos a empresa para o nosso condomínio, percebemos uma grande melhoria na limpeza, segurança e manutenção.
+                                Recomendo a todos que buscam um serviço de excelência!
+                            </p>
+                       </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <!-- FIM SOBRE -->
+         <!-- SERVIÇOS -->
+        <div class="container2 center">
+            <div id="servicos">
+                <h2 class="subTitle">Serviços</h2>
+                <p class="textSubtitle">Oferecemos uma ampla gama de serviços para atender todas as necessidades do seu condomínio,
+                     garantindo qualidade, segurança e eficiência.
+                </p>
+                <h3 class="subTitle">Área de atuação</h3>
+                <div class="flex">
+                    <div class="boxService">
+                        <button class="buttonService">🌿 Jardinagem e Paisagismo</button>
+                        <button class="buttonService">🧹 Limpeza e Conservação</button>
+                        <button class="buttonService">🛡️ Segurança e Portaria</button>
+                        <button class="buttonService">🔧 Manutenção Predial</button>
+                    </div>
+                    <div class="detailService">
+                        <h4 style="font-size: 25px;">🧹 Limpeza e Conservação</h4>
+                        <p class="textSubtitle">
+                            Higienização de áreas comuns (hall, corredores, escadas, elevadores).
+                            Coleta e descarte correto de resíduos.
+                            Limpeza de vidros, fachadas e garagem.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- FIM SERVIÇOS -->
+         <!-- CONTATO -->
+         <div class="container2" style="height: 68vh;" >
+            <div class="back2"></div>
+             <div id="contatos">
+                 <h2 class="subTitle space">Contato</h2>
+                 <p class="textSubtitle space">Não perca a oportunidade de transformar a gestão do seu condomínio!</p>
+                 <a class="button space" href="https://wa.me/+5561991191539" target="_blank" id="buttonOrc">Solicite um orçamento</a>
+                </div>
+                <p class="textSubtitle">nos faça uma visita</p>
+                <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.334838228462!2d-48.056757823949134!3d-15.838989324056591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3332805440a5%3A0x8682e67ba746baf0!2sDesativado!5e0!3m2!1spt-BR!2sbr!4v1740530296703!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- <img class="imgBackground2" src="./img/backgroundRodape.png" alt=""> -->
+       
+        <!-- FIM CONTATO -->
+    </main>
+    <!-- RODAPE -->
+    <footer>
+        <div class="footer">
+            <div class="logoEDados">
+                <div> 
+                    <img class="imgRodape" src="./img/IconNovaBrasilia.png" alt="">
+                </div>
+                <div>
+                    <p>© 2025 | Todos os direitos reservados.</p>
+                    <p>CSB 06 LT 01/02 LOJA 26 TAGUATINGA, BRASÍLIA - DF</p>
+                    <p>Desing by Freepick</p>
+                </div>
+            </div>
+            <div class="socialMedia">
+                <a href="https://wa.me/+5561991191539" target="_blank">
+                    <img class="social" src="./img/imgWhatsapp.svg" alt="">
+                </a>
+                <a href="https://www.instagram.com/nova.brasiliaservicos/" target="_blank">
+                    <img class="social" src="./img/imgInstagram.svg" alt="">
+                </a>
+                <a href="" target="_blank">
+                    <img class="social" src="./img/imgFacebook.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script  src="./script.js"></script>
+</body>
+</html>
