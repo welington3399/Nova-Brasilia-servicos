@@ -133,7 +133,6 @@
         width: 90%;
     }
     .button{
-        width: 90%;
         height: 50px;
         font-size: 26px;
     }
@@ -143,7 +142,43 @@
     .title1{
         font-size: 30px;
     }
+    #sobre{
+        padding: 0px 20px;
+    }
     .textSubtitle {
         font-size: 21px;
+    }
+    .depoiment{
+        display: inline-block;
+        text-align: center;
+    }
+    .depoiment img{
+        width: 60px;
+        height: 60px;
+        
+    }
+    .depoiment p{
+        font-size: 13px;
+    }
+    .depoiment h4{
+        font-size: 15px;
+    }
+
+    .buttonDivs{
+        width: 90%;
+        font-size: 15px;
+    }
+    .butt{
+        padding: 15px;
+        font-size: 25px;
+    }
+    .footer{
+        display: block;
+    }
+    .socialMedia {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
