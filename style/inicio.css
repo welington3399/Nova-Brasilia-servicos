@@ -1,0 +1,22 @@
+.back4{
+    background-image: url(../img/background-final4.png);
+    background-size: cover;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.inicial{
+    margin-bottom: 50px;
+    padding-top: 11%;
+    width: 40%;
+}
+
+.title1{
+    font-size: 41px;
+    font-weight: 700;
+}

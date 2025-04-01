@@ -18,6 +18,10 @@
     h2{
         font-size: 30px;
     }
+    .depoiment{
+        width: 80%;
+        margin: 0 auto;
+    }
 
 
 }
@@ -142,7 +146,7 @@
     .title1{
         font-size: 30px;
     }
-    #sobre{
+    #sobre, #contatos{
         padding: 0px 20px;
     }
     .textSubtitle {
@@ -160,13 +164,10 @@
     .depoiment p{
         font-size: 13px;
     }
-    .depoiment h4{
-        font-size: 15px;
-    }
 
     .buttonDivs{
         width: 90%;
-        font-size: 15px;
+        font-size: 16px;
     }
     .butt{
         padding: 15px;
@@ -180,5 +181,17 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .buttonService, .depoiment h4 {
+        font-size:16px;
+    }
+    .subTitle{
+        font-size: 25px;
+    }
+    .detailService{
+        margin-bottom: 15%;
+    }
+    #contatos{
+        width: 90%;
     }
 }
