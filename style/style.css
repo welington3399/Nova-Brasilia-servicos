@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 
-a{
+a:active{
     color: black;
 }
 
@@ -361,6 +361,7 @@ nav{
     font-size: 20px;
     padding: 15px;
     font-weight: 700;
+    color: #000;
     cursor: pointer;
     background-color: #99d19b;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
