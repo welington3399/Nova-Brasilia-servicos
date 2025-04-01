@@ -29,6 +29,7 @@ h4{
     border-radius: 5px;
     font-size: 20px;
     padding: 15px;
+    color: #000;
     width: 50%;
     font-weight: 700;
     cursor: pointer;
@@ -36,6 +37,7 @@ h4{
     box-shadow: rgb(0 0 0 / 24%) 0px 10px 15px -3px, rgb(52 79 52) 0px 4px 6px -2px;
     border: none;
     transition: 0.5s;
+    -webkit-text-fill-color: inherit;
 }
 
 .buttonDivs:hover{
@@ -43,6 +45,7 @@ h4{
     background-color: #79A141;
     color: white;
     transition: 0.3s;
+    -webkit-text-fill-color: inherit;
 }
 
 .logo{
@@ -366,19 +369,22 @@ nav{
     background-color: #99d19b;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border: none;
+    -webkit-text-fill-color: inherit;
     transition: box-shadow .15s;
 }
 
 .buttonService:hover{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    background-color: #79A141;
     color: white;
+    background-color: #79A141;
+    -webkit-text-fill-color: inherit;
     transition: 0.3s;
 }
 .buttonService:active{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     background-color: #79A141;
     color: white;
+    -webkit-text-fill-color: inherit;
     transition: 0.3s;
 }
 
